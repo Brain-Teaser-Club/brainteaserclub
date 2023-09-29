@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Dela+Gothic+One&family=Martian+Mono:wght@600;700&display=swap" rel="stylesheet">
+    <title>Your Website</title>
+  
+</head>
+<body>
+
+  <div class='navBar'>
+    <a href='about.html' class='link1'>About Us</a>
+    <a href='brain_teasers.html' class='link2'>Brain Teasers</a>
+    <a href='calendar.html' class='link3'>Calendar</a>
+    <a href='Contact.html' class='link4'>Contact Us</a>
+  </div>
+  <a href='index.html'><img src="club-logo.png" alt="Your Club Logo" class="small-club-logo"></a>
+
+ <div class="centered-text">
+        <h1 id="typed-heading" class="hidden"></h1>
+        <p id="typed-paragraph" class="hidden" ></p>
+    </div>
+
+  <div class='fixed'>
+    <form action="https://formspree.io/f/moqopvyz" method="post">
+        <input name='firstname' type='text' class='firstName' placeholder='First Name' min='3' required></input>
+  <input name='lastname' type='text' class='lastName' placeholder='Last Name' min='3' required></input>
+  <input name='email' type='email' class='Email' placeholder='Email Address' required></input>
+  <textarea name='message' class='description' placeholder='What would you like to message?' required></textarea>
+  <input type='submit'></input>
+   </form>
+  </div>
+    
+    <script src="script-cont.js"></script> <!-- Include your JavaScript file -->
+
+</body>
+</html>

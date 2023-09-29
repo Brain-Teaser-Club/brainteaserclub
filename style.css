@@ -1,0 +1,187 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* style.css */
+
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background gradient for the entire page */
+body {
+    background: #cfcece;
+    color: #333; /* Dark gray text */
+    font-family: 'Chakra Petch', sans-serif; /* Choose your preferred font-family */
+
+}
+
+/* Style the main content */
+h1 {
+    font-size: clamp(18px, 4vw, 50px);
+    margin-top: 20px;
+    color: #000000; /* White text color for the heading */
+}
+
+p {
+    font-size: clamp(15px, 3vw, 25px);
+    line-height: 2;
+    margin-top: 10px;
+    padding: 0 20px;
+    color: #030202; /* Light gray text color for the content */
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Add some space between sections */
+section {
+    padding: 20px;
+}
+
+.centered-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-left:20%;
+    width: 60%; /* Set the width to 60% of the screen width */
+}
+
+/* Style the navigation bar */
+.navBar {
+    display: flex;
+    background-color: #363636;
+    height: 7vh;
+    padding: 0px;
+}
+
+/* Style the navigation links */
+a {
+    text-decoration: none;
+    color: #d1d1d1;
+    text-align: center;
+    transition: 500ms;
+    font-size: 2vw;
+    flex: 1;
+    display: flex; /* Use flex for vertical centering */
+    align-items: center; /* Vertically center the text */
+    justify-content: center; /* Horizontally center the text */
+  
+}
+
+a:hover {
+    color: #00bfe6;
+    transition: 500ms;
+}
+
+.link1:hover,
+.link2:hover,
+.link3:hover,
+.link4:hover {
+    background-color: #737373;
+    transition: 500ms;
+}
+
+.small-club-logo {
+    width: 10vw; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position absolutely within the header */
+    top: 70px; /* Adjust the top position for vertical alignment */
+    left: 10px; /* Adjust the left position for horizontal alignment */
+}
+
+.fixed{
+  display:block;
+  position: fixed;
+  margin-top:400px;
+  top: -10vh;
+  left:0;
+  width:100%;
+  height:50%;
+}
+.firstName{
+  position:absolute;
+  width:32vw;
+  height:4vh;
+  left:15%;
+  top:10vh;
+  border: none;
+  border-radius:5px;
+  text-align:center;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: clamp(10px, 1.5vw, 15px);
+}
+.lastName{
+  position:absolute;
+  width:32vw;
+  height:4vh;
+  left:51%;
+  top:10vh;
+  border: none;
+  border-radius:5px;
+  text-align:center;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: clamp(10px, 1.5vw, 15px);
+}
+
+.Email{
+  position:absolute;
+  width:68vw;
+  height:4vh;
+  left:15%;
+  top:16vh;
+  border: none;
+  border-radius:5px;
+  text-align:center;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: clamp(10px, 1.5vw, 15px);
+}
+
+.description{
+  position:absolute;
+  resize:none;
+  width:68vw;
+  height:10vh;
+  top:22vh;
+  left:15%;
+  border: none;
+  border-radius:5px;
+  text-align:center;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: clamp(10px, 1.5vw, 15px);
+}
+
+input[type='submit']{
+  position:absolute;
+  width:50vw;
+  height:4vh;
+  top:34vh;
+  left:25%;
+  border: none;
+  border-radius:5px;
+  background-color:#005bbd;
+  color:#ffffff;
+  text-align:center;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: clamp(10px, 1.5vw, 15px);
+  transition: 400ms ease;
+}
+
+input[type='submit']:hover{
+  transform:scale(1.05,1.05);
+  background-color:#007ecc;
+  cursor:pointer;
+  transition: 400ms ease;
+}
+
+img{
+  height:40vw;
+  max-height:400px;
+  width:40vw;
+  max-width:400px;
+}
